@@ -1,72 +1,79 @@
-<!DOCTYPE html>
-<html lang="en-US">
-	<head>
-		<meta charset="UTF-8">
-		<title>Alexander Blair - GitHub: Main Page</title>
-		<link rel="stylesheet" href="https://snsation.github.io/global/global_assets/global_css.css">
-		<link rel="stylesheet" href="https://snsation.github.io/pages/home/home_assets/home_css.css">
-	</head>
-	<body>
-	<div class="g_page"> <!-- START Page -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- END Meta Tags -->
 
-		<div class="g_top" id="g_top"> <!-- START Top Navigation-->
-			<a class="g_top_link" href="https://snsation.github.io/pages/home/home_page.html"><img class="g_top_logo" src="https://snsation.github.io/g/g_assets/g_images/icon.jpg" alt="SnS Icon" /></a>
-			<ul class="g_top_nav">
-				<a class="g_top_link" href="https://snsation.github.io/pages/home/home_page.html"><li class="g_top_nav_item">Home</li></a>
-				<a class="g_top_link" href="https://snsation.github.io/pages/python/python_page.html"><li class="g_top_nav_item">Python</li></a>
-				<a class="g_top_link" href="https://snsation.github.io/pages/htmlcss/htmlcss_page.html"><li class="g_top_nav_item">HTML and CSS</li></a>
-				<a class="g_top_link" href="https://snsation.github.io/pages/blog/blog_page.html"><li class="g_top_nav_item">Blog</li></a>
-				<a class="g_top_link" href="https://snsation.github.io/pages/about/about_page.html"><li class="g_top_nav_item">About</li></a>
-				<a class="g_top_link" href="https://snsation.github.io/pages/about/ct_page.html"><li class="g_top_nav_item">Coding Temple</li></a>
-			</ul>
-		</div> <!-- END Top Navigation -->
+	<!-- CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<!-- Global CSS -->
+	<link rel="stylesheet" href="https://snsation.github.io/global/assets/global.css">
+	<!-- Page CSS -->
+	<!-- CHANGE: path to page assets -->
+	<link rel="stylesheet" href="https://snsation.github.io/pages/home/assets/home.css">
+	<!-- END CSS -->
 
-		<div class="g_head"> <!-- Header -->
-			<h1 class="g_head_title">Alexander Blair - SnSation</h1>
-			<h2 class="g_head_subtitle">Main Page</h2>
-		</div> <!-- END Header -->
+    <title>Alexander Blair's Portfolio</title>
+  </head>
+  <body>
+	<!-- Page Container -->
+	<div class="container g_Page_Container">
 
-		<div class="g_content"> <!-- Content -->	
-			<p class="g_content_title">Article Title</p>
-			<p class="g_content_paragraph">lorem ipsum dolor sit amet, consect lorem ipsum dolor sit amet, consectetur adipiscing elit non mi porta gravida at eget met</p>
-		</div> <!-- END Content -->
+		<!-- Header -->
+		<div class="row g_Header_Row" id="home_Header_Row">
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-sm navbar-light bg-light">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavId">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownId">
+								<a class="dropdown-item" href="#">Action 1</a>
+								<a class="dropdown-item" href="#">Action 2</a>
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+			<!-- END Navbar -->
+		</div>
+		<!-- END Header -->
 
-		<div class="g_bot"> <!-- Bottom -->
+		<!-- Content -->
+		<div class="row g_Content_Row" id="home_Content_Row">
+		</div>
+		<!-- END Content -->
 
-			<div class="g_bot_entity"> <!-- Bottom Contact Form-->
-			<form class="g_contact_form" action="mailto:blair95273@gmail.com" method="post">
-				<fieldset class="g_contact_details">
-					<legend class="g_contact_legend">Contact Details</legend>
-					<label class="g_contact_label">Name:<br />
-						<input class="g_contact_info" type="text" id="contact_name" name="contact_name" />
-					</label><br />
-					</label>
-					<label class="g_contact_label">Email:<br />
-						<input class="g_contact_info" type="email" id="contact_email" name="contact_email" />
-					</label><br />
-					<label class="g_contact_label">Phone:<br />
-						<input class="g_contact_info" type="text" id="contact_phone" name="contact_phone" />
-					</label>
-				</fieldset>
-				<fieldset class="g_contact_message">
-					<legend class="g_contact_legend">Message:</legend>
-					<textarea class="g_contact_text" id="contact_text" name="contact_text" rows="6" cols="50" >Questions, Comments, Criticisms?</textarea>
-					<input class="g_contact_submit" id="contact_submit" name="contact_submit" type="submit" value="Send Message" />
-				</fieldset>
-			</form>
-			</div> <!-- End Bottom Contact Form-->
+		<!-- Footer -->
+		<div class="row g_Footer_Row" id="home_Footer_Row">
+		</div>
+		<!-- END Footer -->
 
-			<div class="g_bot_entity"> <!-- Bottom Navigation -->
-			<ul class="g_bot_nav">
-				<a class="g_bot_link" href="https://snsation.github.io/pages/home/home_page.html"><li class="g_bot_item">Home</li></a>
-				<a class="g_bot_link" href="https://snsation.github.io/pages/python/python_page.html"><li class="g_bot_item">Python</li></a>
-				<a class="g_bot_link" href="https://snsation.github.io/pages/htmlcss/htmlcss_page.html"><li class="g_bot_item">HTML and CSS</li></a>
-				<a class="g_bot_link" href="https://snsation.github.io/pages/blog/blog_page.html"><li class="g_bot_item">Blog</li></a>
-				<a class="g_bot_link" href="https://snsation.github.io/pages/about/about_page.html"><li class="g_bot_item">About</li></a>
-			</ul>
-			</div> <!-- End Bottom Navigation-->
+	</div>
+	<!-- END Page Container -->
 
-		</div class="g_bot"> <!-- End Bottom-->
-	</div> <!-- End Page -->
-	</body>
+	<!-- Bootstrap Scripts -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<!-- END Bootstrap Scripts -->
+  </body>
 </html>
