@@ -1,0 +1,7 @@
+Current Goals:
+Create Global HTML (Template)
+Create Global CSS
+
+Current Step:
+- global.html
+    - navbar
